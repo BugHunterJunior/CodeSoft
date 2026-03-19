@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}Login — Taskr{% endblock %}
+
+{% block content %}
+
+<div class="auth-wrapper">
+  <div class="auth-card">
+
+    <!-- Header -->
+    <div class="auth-header">
+      <h1 class="auth-title">Welcome back</h1>
+      <p class="auth-sub">Sign in to your account</p>
+    </div>
+
+    <!-- Form -->
+    <form 
+      action="{{ url_for('auth.login') }}" 
+      method="post" 
+      class="auth-form"
+      novalidate
+    >
+
+      {% set user_email = email %}
+
+      <div class="form-group">
+        <label for="email">Email</label>
+
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value="{{ user_email }}"
+          placeholder="you@example.com"
+          autocomplete="email"
+          required
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter password"
+          autocomplete="current-password"
+          required
+        >
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-full">
+        Sign in
+      </button>
+
+    </form>
+
+    <!-- Switch -->
+    <p class="auth-switch">
+      Don't have an account?
+      <a href="{{ url_for('auth.register') }}">Create one</a>
+    </p>
+
+  </div>
+</div>
+
+{% endblock %}

@@ -51,7 +51,7 @@ python main.py
 
 **Option 2: Run the Executable**
 **Compiled Application (Releases Section):**
-- `📦 calculator.exe`: Download from the Releases section and double-click to run 🚀
+- 📦 `calculator.exe`: Download from the [Releases section](https://github.com/BugHunterJunior/CodeSoft/releases/download/v1.0-calculator/Calculator.exe) and double-click to run 🚀
 
 ### 👨‍💻 Author: 
 Built by someone who calculated twice just to be sure 😅

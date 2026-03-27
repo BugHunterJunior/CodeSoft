@@ -17,7 +17,7 @@
 ---
 
 ## Overview
-A modern, fully functional GUI Contact Book application built during the CodeSoft Internship using Python, CustomTkinter, and SQLite. This project replaces basic listboxes with a clean, 2-column dashboard layout, offering secure local database storage and real-time search capabilities.
+The project focuses on combining a modern GUI design with practical data handling, making it a lightweight yet functional desktop contact management system.
 
 ---
 
@@ -59,7 +59,7 @@ python main.py
 **Option 2: Run the Executable**
 **Compiled Application [(Releases Section)]:**
 
-- 📦 `ContactBook.exe`: Download from the [Releases section](https://github.com/BugHunterJunior/CodeSoft/releases) and double-click to run 🚀 (Link will be active once compiled)
+- 📦 `ContactBook.exe`: Download from the [Releases section](https://github.com/BugHunterJunior/CodeSoft/releases) and double-click to run [🚀](https://github.com/BugHunterJunior/CodeSoft/releases/download/v1.0-ContactBook/ContactBook.exe)
 
 ### 👨‍💻 Author: 
 Created by someone whose internal cache drops phone numbers on every reboot 🔄

@@ -18,15 +18,9 @@ This repository contains the work completed during the CodeSoft Internship Progr
 ### 📂 Tasks
 - `[01]` **To-Do List**
 - `[02]` **Calculator**
-- `[03]` **Password Generator**
-- `[04]` **Contact Book**
+- `[03]` **Contact Book**
 
 ---
-
-### 🛠️ Workspace Activity
-<a href="https://github.com/BugHunterJunior"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=16&pause=1000&color=00FF00&background=0D1117&center=false&vCenter=false&width=600&lines=>+root@bughunter:~#+initializing+repository...;>+root@bughunter:~#+loading+tasks...;>+root@bughunter:~#+status:+active" alt="Typing SVG" /></a>
-
-
 
 ### ⚙️ Execution 
 1. Clone the repository
